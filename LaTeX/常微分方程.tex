@@ -1,0 +1,281 @@
+\documentclass[UTF8]{article}
+\usepackage{ctex}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\begin{document}
+
+\title{常微分方程}
+\author{敖鸥}
+\date{\today}
+
+\maketitle
+\pagenumbering{arabic}
+\tableofcontents
+\newpage
+
+\section{一阶微分方程的初等解法}
+\subsection{变量分离方程与变量变换}
+\subsubsection{变量分离方程}
+形如\\
+\begin{align}\label{key1}
+\frac{dy}{dx}=f(x)\varphi(y)
+\end{align}
+的方程,称为变量分离方程,这里$f(x),\varphi(y)$分别是$x,y$的连续函数.\\
+如果$\varphi(y) \ne 0$,我们可将 (\ref{key1}) 改写成\\
+$$
+\frac{dy}{\varphi(y)}=f(x)dx,
+$$
+这样,变量就“分离”开来了.两边积分,得到\\
+\begin{align}\label{key2}
+\int {\frac{dy}{\varphi(y)}}=\int{f(x)dx+c} 
+\end{align}
+
+\subsubsection{可化为变量分离方程的类型}
+\paragraph{(1)形如}
+\begin{align}\label{key3}
+\frac{dy}{dx}=g(\frac{y}{x})
+\end{align}
+的方程,称为齐次微分方程,这里$g(u)$是$u$的连续函数.\\
+作变量变换
+\begin{align}\label{key4}
+u=\frac{y}{x},
+\end{align}
+即$y=ux$,于是
+\begin{align}\label{key5}
+\frac{dy}{dx}=x \frac{du}{dx}+u.
+\end{align}
+将(\ref{key4}),(\ref{key5})代入(\ref{key3}),则原方程变为
+\begin{align*}
+x\frac{du}{dx}+u=g(u),
+\end{align*}
+整理后,得到
+\begin{align}\label{key6}
+\frac{du}{dx}=\frac{g(u)-u}{x}.
+\end{align}
+
+方程(\ref{key6})是一个变量分离方程.可按1.1.1的方法求解,然后代回原来的变量,便得(\ref{key3})的解.
+\paragraph{(2)形如}
+\begin{align}\label{key7}
+\frac{dy}{dx}=\frac{a_1 x+b_1 y+c_1}{a_2 x+b_2 y+c_2}
+\end{align}
+的方程也可经变量变换化为变量分离方程,这里$a_1,a_2,b_1,b_2,c_1,c_2$均为常数.
+\\有如下三种情形:
+\\
+1.$\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k$(常数)情形.
+\\
+这是方程化为
+$$
+\frac{dy}{dx}=k,
+$$
+有通解
+$$
+y=kx+c.(\text{其中$c$为任意常数})
+$$
+
+2.$\frac{a_1}{a_2}=\frac{b_1}{b_2}=k \ne \frac{c_1}{c_2}$情形\\
+令$u=a_2x+b_2y$,这时有
+\begin{align*}
+\frac{du}{dx}=a_2+b_2\frac{dy}{dx}=a_2+b_2\frac{ku+c_1}{u+c_2}
+\end{align*}
+是分离变量方程.\\
+3.$\frac{a_1}{a_2} \ne \frac{b_1}{b_2}$情形\\
+如果方程(\ref{key7})中$c_1,c_2$不全为零,方程右端分子、分母都是$x,y$的一次多项式,因此
+
+\begin{align}\label{key8}
+\begin{cases}
+a_1x+b_1y+c_1=0,\\
+a_2x+b_2y+c_2=0
+\end{cases}
+\end{align}
+
+代表$Oxy$平面上两条相交的直线,设交点为$(\alpha,\beta)$.若令
+\begin{align}\label{key9}
+\begin{cases}
+X=x-\alpha,\\
+Y=y-\beta,
+\end{cases}
+\end{align}
+
+则(\ref{key8})化为
+\begin{align*}
+\begin{cases}
+a_1X+b_1Y=0,\\
+a_2X+b_2Y=0,
+\end{cases}
+\end{align*}
+
+从而(\ref{key7})变为
+\begin{align}\label{key10}
+\frac{dY}{dX}=\frac{a_1X+b_1Y}{a_2X+b_2Y}=g(\frac{Y}{X})
+\end{align}
+
+因此,求解上述变量分离方程,最后代回原变量即可的原方程(\ref{key7})的解.
+
+
+\subsection{线性微分方程与常数变易法}
+一阶线性微分方程
+\begin{align}\label{key11}
+\frac{dy}{dx}=P(x)y+Q(x),
+\end{align}
+
+其中$P(x),Q(x)$在考虑的区间上是$x$的连续函数.若$Q(x)=0$，(\ref{key11})变为
+\begin{align}\label{key12}
+\frac{dy}{dx}=P(x)y,
+\end{align}
+(\ref{key12})称为一阶线性微分方程.若$Q(x) \ne 0$,(\ref{key11})称为一阶非齐次线性微分方程.\\
+
+(\ref{key12})是变量分离方程,它的通解为
+\begin{align}\label{key13}
+y=ce^{\int P(x)dx},
+\end{align}
+这里$c$是任意常数.\\
+将常数$c$变易为$x$的待定函数$c(x)$.令
+\begin{align}\label{key14}
+y=c(x)e^{\int P(x)dx}
+\end{align}
+微分之,得到
+\begin{align}\label{key15}
+\frac{dy}{dx}=\frac{dc(x)}{dx} e^{\int P(x)dx}+c(x)P(x)e^{\int P(x)dx}
+\end{align}
+以(\ref{key14}),(\ref{key15})代入(\ref{key11}),得到
+\begin{align*}
+& \frac{dc(x)}{dx} e^{\int P(x)dx}+c(x)P(x)e^{\int P(x)dx}\\
+&=P(x)c(x)e^{\int P(x)dx}+Q(x),\\
+\end{align*}
+即
+\begin{align*}
+\frac{dc(x)}{dx}=Q(x)e^{-\int P(x)dx},
+\end{align*}
+积分后得到
+\begin{align*}
+c(x)=\int Q(x)e^{- \int P(x)dx}dx+\tilde{c},
+\end{align*}
+
+这里$\tilde{c}$ 是任意常数.将上式代入(\ref{key14}),得到方程(\ref{key11})的通解
+\begin{align}\label{16}
+y=e^{\int P(x)dx}(\int Q(x)e^{-\int P(x)dx}dx+\tilde{c})
+\end{align}
+
+\paragraph{伯努利微分方程}
+\begin{align}\label{key17}
+\frac{dy}{dx}=P(x)y+Q(x)y^n
+\end{align}
+这里$P(x),Q(x)\text{为}x$的连续函数,$n \ne 0,1$是常量.对于$y \ne 0$,用$y^{-n}$乘(\ref{key17})两边,得到
+\begin{align}\label{key18}
+y^{-n}\frac{dy}{dx}=y^{1-n}P(x)+Q(x),
+\end{align}
+
+引入变量变换
+\begin{align}\label{key19}
+z=y^{1-n}
+\end{align}
+从而
+\begin{align}\label{key20}
+\frac{dz}{dx}=(1-n)y^{-n} \frac{dy}{dx}.
+\end{align}
+
+将(\ref{key19}),(\ref{key20})代入(\ref{key18}),得到
+\begin{align}\label{key21}
+\frac{dz}{dx}=(1-n)P(x)z+(1-n)Q(x)
+\end{align}
+这是线性微分方程,可按上面的方法求得它的通解,然后代回原来的变量,便得到(\ref{key17})的通解.此外,当$n>0$时,方程还有解$y=0$.
+
+\subsection{恰当微分方程与积分因子}
+\subsubsection{恰当微分方程}
+
+形如
+\begin{align}\label{key22}
+M(x,y)dx+N(x,y)dy=0,
+\end{align}
+这里假设$M(x,y),N(x,y)$在某矩形域内是$x,y$的连续函数,且具有连续的一阶偏导数.如果方程(\ref{key22})的左端恰好是某个二元函数$u(x,y)$的全微分,即
+\begin{align}\label{key23}
+\begin{split}
+M(x,y)dx+N(x,y)dy & =du(x,y)\\
+& =\frac{\partial u}{\partial x}dx+\frac{\partial u}{\partial y}dy,
+\end{split}
+\end{align}
+则称(\ref{key22})为恰当微分方程.\\
+易知(\ref{key22})的通解就是
+\begin{align}\label{key24}
+u(x,y)=c,
+\end{align}
+这里$c$是任意常数
+
+\begin{align}\label{key25}
+\begin{split}
+&ydx+xdy=d(xy),\\
+&\frac{ydx-xdy}{y^2}=d(\frac{x}{y}),\\
+&\frac{-ydx+xdy}{x^2}=d(\frac{y}{x}),\\
+&\frac{ydx-xdy}{xy}=d(\ln{\left|\frac{x}{y}\right|}),\\
+&\frac{ydx-xdy}{x^2+y^2}=d(\arctan{\frac{x}{y}}),\\
+&\frac{ydx-xdy}{x^2-y^2}=\frac{1}{2}d(\ln{\left|\frac{x-y}{x+y}\right|}).
+\end{split}
+\end{align}
+
+\subsubsection{积分因子}
+如果存在连续的可微函数$\mu=\mu(x,y) \ne 0$,使得
+$$
+\mu (x,y)M(x,y)dx+\mu (x,y)N(x,y)dy=0
+$$
+为一恰当微分方程,即存在函数$v$,使
+\begin{align}\label{key26}
+\mu Mdx+\mu Ndy \equiv dv,
+\end{align}
+则称$\mu(x,y)$为方程(\ref{key22})的积分因子.\\
+这时$v(x,y)=c$是(\ref{key26})的通解,因而也就是(\ref{key22})的通解.\\
+方程(\ref{key22})有只与$x$有关的积分因子的充要条件是
+\begin{align}\label{key27}
+\frac{\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x}}{N}=\psi(x),
+\end{align}
+故方程(\ref{key22})有一个积分因子
+\begin{align}\label{key28}
+\mu =e^{\int{\psi(x)dx}}.
+\end{align}
+
+方程(\ref{key22})有只与$y$有关的积分因子的充要条件是
+\begin{align}\label{key29}
+\frac{\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x}}{-M}=\varphi(x),
+\end{align}
+故方程(\ref{key22})有一个积分因子
+\begin{align}\label{key30}
+\mu =e^{\int{\varphi(y)dy}}.
+\end{align}
+
+\subsection{一阶隐式微分方程与参数表示}
+有如下四种类型:
+$$
+(1)\quad y=f(x,y');\qquad (2)\quad x=f(y,y');
+$$
+$$
+(3)\quad F(x,y')=0;\qquad (4) \quad F(y,y')=0.
+$$
+
+\subsubsection{可以解出$y$或($x$)的方程}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
