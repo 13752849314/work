@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.15)  8 DEC 2021 19:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.15)  8 DEC 2021 20:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -296,30 +296,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 23.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--33
+Underfull \hbox (badness 10000) in paragraph at lines 5--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--33
+Underfull \hbox (badness 10000) in paragraph at lines 5--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--33
+Underfull \hbox (badness 10000) in paragraph at lines 5--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--39
 
  []
 
 [1
 
-] (./zz.aux) ) 
+] [2] (./zz.aux) ) 
 Here is how much of TeX's memory you used:
  6247 strings out of 476919
  176153 string characters out of 5820048
- 515904 words of memory out of 5000000
+ 517904 words of memory out of 5000000
  26203 multiletter control sequences out of 15000+600000
  404442 words of font info for 42 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,5n,104p,381b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on zz.pdf (1 page).
+Output written on zz.pdf (2 pages).
