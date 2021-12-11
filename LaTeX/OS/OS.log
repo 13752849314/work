@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.15)  11 DEC 2021 22:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.15)  11 DEC 2021 23:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/vscode/work/LaTeX/English/english
-(d:/vscode/work/LaTeX/English/english.tex
+**d:/vscode/work/LaTeX/OS/OS
+(d:/vscode/work/LaTeX/OS/OS.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -194,8 +194,8 @@ Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
 
 )) (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2021/03/14 v2.5.6 Configuration file (CTEX)
-) (./english.aux)
-\openout1 = `english.aux'.
+) (./OS.aux)
+\openout1 = `OS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -273,175 +273,35 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--37
+Underfull \hbox (badness 10000) in paragraph at lines 4--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--37
+Underfull \hbox (badness 10000) in paragraph at lines 4--16
 
  []
 
 
-Overfull \hbox (11.83128pt too wide) in paragraph at lines 38--80
-\TU/lmr/m/n/10.53937 The potential benefits of cooperation are clear.The resources,such as databases,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--80
+Underfull \hbox (badness 10000) in paragraph at lines 4--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--80
-
- []
-
-
-Overfull \hbox (4.68558pt too wide) in paragraph at lines 38--80
-\TU/lmr/m/n/10.53937 Behind it lies a simple life philosophy,”United,we stand;divided,we fall”,which
- []
-
-
-Overfull \hbox (5.78165pt too wide) in paragraph at lines 38--80
-\TU/lmr/m/n/10.53937 resources–databases,strategies and social connections–could be shared though
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--80
+Underfull \hbox (badness 10000) in paragraph at lines 4--16
 
  []
 
 [1
 
-] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--143
-
- []
-
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 144--182
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--182
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 183--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--219
-
- []
-
-[7] [8] (./english.aux) ) 
+] (./OS.aux) ) 
 Here is how much of TeX's memory you used:
- 5733 strings out of 476919
- 177243 string characters out of 5820048
- 519678 words of memory out of 5000000
- 25700 multiletter control sequences out of 15000+600000
- 403534 words of font info for 40 fonts, out of 8000000 for 9000
+ 5653 strings out of 476919
+ 171244 string characters out of 5820048
+ 505673 words of memory out of 5000000
+ 25625 multiletter control sequences out of 15000+600000
+ 403510 words of font info for 37 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,4n,104p,388b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,4n,104p,378b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on english.pdf (8 pages).
+Output written on OS.pdf (1 page).
