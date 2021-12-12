@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.15)  11 DEC 2021 23:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.15)  12 DEC 2021 17:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -194,114 +194,281 @@ Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
 
 )) (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2021/03/14 v2.5.6 Configuration file (CTEX)
+) (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+ (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+) (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count283
+\lst@gtempboxa=\box50
+\lst@token=\toks16
+\lst@length=\count284
+\lst@currlwidth=\dimen176
+\lst@column=\count285
+\lst@pos=\count286
+\lst@lostspace=\dimen177
+\lst@width=\dimen178
+\lst@newlines=\count287
+\lst@lineno=\count288
+\lst@maxwidth=\dimen179
+ (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count289
+\lst@skipnumbers=\count290
+\lst@framebox=\box51
+) (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (d:/latex/latex/texlive/2021/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2020/10/19 v3.8.6 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count291
+\l__xeCJK_listings_flag_int=\count292
 ) (./OS.aux)
 \openout1 = `OS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 3.
+LaTeX Info: Redefining \selectfont on input line 5.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
-LaTeX Font Info:    Redeclaring math accent \check on input line 3.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 5.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 5.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 5.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 5.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 5.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 5.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 5.
+LaTeX Font Info:    Redeclaring math accent \check on input line 5.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 5.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 5.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 5.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 5.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 3.
+(Font)              `operators' in the math version `normal' on input line 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 3.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 5.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 3.
+(Font)              `operators' in the math version `bold' on input line 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 3.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 3.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 3.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 3.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 3.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 3.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 5.
+\c@lstlisting=\count293
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--16
+Underfull \hbox (badness 10000) in paragraph at lines 7--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--16
+Underfull \hbox (badness 10000) in paragraph at lines 7--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--16
+Underfull \hbox (badness 10000) in paragraph at lines 7--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--57
 
  []
 
 [1
 
-] (./OS.aux) ) 
-Here is how much of TeX's memory you used:
- 5653 strings out of 476919
- 171244 string characters out of 5820048
- 505673 words of memory out of 5000000
- 25625 multiletter control sequences out of 15000+600000
- 403510 words of font info for 37 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,4n,104p,378b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+] [2]
+File: graph/1.png Graphic file (type bmp)
+<graph/1.png>
+ (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (d:/latex/latex/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 58--74
 
-Output written on OS.pdf (1 page).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--74
+
+ []
+
+
+Overfull \hbox (85.64502pt too wide) in paragraph at lines 58--74
+[] 
+ []
+
+
+Overfull \hbox (2.2394pt too wide) in paragraph at lines 58--74
+\TU/FandolSong-Regular(0)/m/n/10.53937 一 旦 操 作 系 统 发 现 了 要 求 创 建 新 进 程 的 事 件 后，|  便 调 用 进 程 创 建 原 语 \TU/lmr/m/n/10.53937 Creat()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--74
+
+ []
+
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 89--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--115
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 116--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--153
+
+ []
+
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 154--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--161
+
+ []
+
+[9] [10] (./OS.aux) ) 
+Here is how much of TeX's memory you used:
+ 7576 strings out of 476919
+ 209845 string characters out of 5820048
+ 754338 words of memory out of 5000000
+ 27494 multiletter control sequences out of 15000+600000
+ 403558 words of font info for 43 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,4n,104p,383b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on OS.pdf (10 pages).
